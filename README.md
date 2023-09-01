@@ -4,7 +4,7 @@
 
 Lightweight Charts + Angular + Wails Stock Market Demo
 
-## ![img](C:\Users\Masterguo\Downloads\EasyStock\img.png)
+## ![img](img.png)
 
 Live Development
 
