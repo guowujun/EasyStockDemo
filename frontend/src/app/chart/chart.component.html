@@ -1,0 +1,18 @@
+<div id="main">
+    <div id="container"></div>
+</div>
+
+<button [disabled]="disabled" class="getData" mat-raised-button color="primary" (click)="do()">GetData</button>
+
+<div id="footer">
+    <mat-toolbar>
+        <button mat-button *ngFor="let item of footerData;">
+            <span>{{item.name}}</span>
+            <span>{{item.close | number:'0.2-2'}}</span>
+            <fa-icon [icon]="trendUpIcon" class="red-icon"></fa-icon>
+            <span>{{item.upCount}}</span>
+            <fa-icon [icon]="TrendDownIcon" class="green-icon"></fa-icon>
+            <span>{{item.downCount}}</span>
+        </button>
+    </mat-toolbar>
+</div>

@@ -1,0 +1,36 @@
+#main, mat-toolbar, #footer {
+    margin: 1px;
+}
+
+#container{
+    width: 800px;
+    height: 600px;
+    background-color: red;
+    float: left;
+}
+
+.getData{
+    margin-left: 10px;
+    float: left;
+    width: 100px;
+}
+
+#footer {
+    display: block;
+    background-color: #2B2D30;
+    font-size: 14px;
+    color: #C3BCDB;
+    width: 799px;
+}
+
+#footer span, #footer fa-icon {
+    margin-left: 5px;
+}
+
+.red-icon {
+    color: red;
+}
+
+.green-icon {
+    color: green;
+}
